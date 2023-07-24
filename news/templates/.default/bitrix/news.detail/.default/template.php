@@ -47,10 +47,14 @@ $this->setFrameMode(true);
         endif; ?>
         <div class="article-card__text">
             <div class="block-content" data-anim="anim-3">
-                <p><?
-                    echo $arResult["DETAIL_TEXT"]; ?></p>
-                <p><?
-                    echo $arResult["PREVIEW_TEXT"]; ?></p>
+                <p>
+                    <?
+                    echo $arResult["DETAIL_TEXT"]; ?>
+                </p>
+                <p>
+                    <?
+                    echo $arResult["PREVIEW_TEXT"]; ?>
+                </p>
             </div>
             <a class="article-card__button" href="<?= $arResult["LIST_PAGE_URL"] ?>">
                 Назад к новостям
