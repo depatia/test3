@@ -71,4 +71,4 @@ $ElementID = $APPLICATION->IncludeComponent(
     ],
     $component,
     ['HIDE_ICONS' => 'Y']
-); ?>
+);
