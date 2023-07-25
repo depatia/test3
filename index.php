@@ -76,7 +76,7 @@ $APPLICATION->IncludeComponent(
         "USE_SHARE" => "N",
         "VARIABLE_ALIASES" => Array("ELEMENT_ID"=>"ELEMENT_ID","SECTION_ID"=>"SECTION_ID")
     )
-);?>
+); ?>
 
 <?
 require($_SERVER['DOCUMENT_ROOT'].'/bitrix/footer.php');
